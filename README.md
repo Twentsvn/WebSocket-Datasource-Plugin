@@ -22,7 +22,9 @@ All settings for the plugin are managed through the `pulkit-plugin.yaml` file. T
 Follow these steps to run the **_Pulkit-Plugin_** inside your Godspeed project:
 
 1. **Navigate to your Godspeed project directory:**
-
+   ```bash
+   godspeed create /path/to/your/godspeed/project
+   ```
    ```bash
    cd /path/to/your/godspeed/project
    ```
