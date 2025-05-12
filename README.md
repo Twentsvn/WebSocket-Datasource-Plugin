@@ -48,7 +48,7 @@ Follow these steps to run the **_Pulkit-Plugin_** inside your Godspeed project:
     ```
 5. **Access the WebSocket**
     > After starting the server, check the terminal output.  
-    > A WebSocket URL will be displayed.
+    > A URL will be displayed which can be used to access through the browser.
 
 ---
 ## Output
