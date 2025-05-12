@@ -26,15 +26,19 @@ Follow these steps to run the **_Pulkit-Plugin_** inside your Godspeed project:
    ```bash
    cd /path/to/your/godspeed/project
    ```
-2. **Build the project**
+2. **Paste the src directory (Replace the src directory created by the godspeed )**
+   ```bash
+   mov ./src /path/to/your/godspeed/project
+   ```
+3. **Build the project**
     ```bash
     godspeed build
     ```
-3. **Start the development server**
+4. **Start the development server**
     ```bash
     godspeed dev
     ```
-4. **Access the WebSocket**
+5. **Access the WebSocket**
     > After starting the server, check the terminal output.  
     > A WebSocket URL will be displayed.
 
