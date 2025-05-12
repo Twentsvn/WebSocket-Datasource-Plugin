@@ -45,9 +45,9 @@ Follow these steps to run the **_Pulkit-Plugin_** inside your Godspeed project:
 
 ---
 ## Output
-* __Data received from the WebSocket is saved to a local file.__  
+* __Data received from the WebSocket is saved to a /path/to/godspeed/project/log .__  
 
-* __The exact file path and format may depend on plugin implementation details.__
+* __The exact file name will be shown in the Goodspeed CLI .__
 
 ---
 ## Note
