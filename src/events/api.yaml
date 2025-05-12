@@ -1,0 +1,3 @@
+http.get./api-docs: # Defines a GET endpoint at /test-websocket
+  fn: testplug # Name of the workflow file (without .ts or .js)
+  # You can define request/response schemas here if needed
