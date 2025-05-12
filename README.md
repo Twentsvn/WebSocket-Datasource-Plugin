@@ -1,6 +1,6 @@
 #  Pulkit-Plugin @ Godspeed
 
-The **Pulkit-Plugin** is a simple WebSocket client that connects to a specified server, collects data for a given duration, and stores it in a file. Built to work within the **_Godspeed Framework_** this plugin requires minimal setup and no authentication.
+The **Pulkit-Plugin** is a simple WebSocket client that connects to a specified server, collects data for a given duration, and stores it in a file. Built to work within the **_Godspeed Framework_** this plugin requires minimal setup .
 
 ---
 
