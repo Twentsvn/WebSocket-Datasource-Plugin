@@ -21,10 +21,10 @@ All settings for the plugin are managed through the `pulkit-plugin.yaml` file. T
 
 Follow these steps to run the **_Pulkit-Plugin_** inside your Godspeed project:
 
-> For godspeed
-```bash
-npm install -g @godspeedsystems/godspeed
-```
+> For godspeed setup check the below link
+>   ```bash
+>   https://godspeed.systems/docs/microservices-framework/guide/get-started
+>   ```
 
 1. **Navigate to your Godspeed project directory:**
    ```bash
