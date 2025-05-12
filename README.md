@@ -11,8 +11,8 @@ All settings for the plugin are managed through the `pulkit-plugin.yaml` file. T
 | Parameter   | Description                                                |
 |-------------|------------------------------------------------------------|
 | `duration`  | Time (milli-seconds) to collect data from the WebSocket.     |
-| `username`  | Currently "admin" is the only right choice :)              |
-| `password`  | Currently "admin" is the only right choice :)               |
+| `username`  | Currently "admin" is the only right choice :) . (Reserved for future authentication support)              |
+| `password`  | Currently "admin" is the only right choice :) . (Reserved for future authentication support)               |
 | `url`       | WebSocket URL to connect to (no authentication required). |
 
 ---
