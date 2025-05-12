@@ -1,0 +1,5 @@
+type: pulkit-plugin
+url : "wss://test.deribit.com/ws/api/v2"
+username : "admin"
+password : "admin"
+duration : 10000
