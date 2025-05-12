@@ -28,7 +28,7 @@ Follow these steps to run the **_Pulkit-Plugin_** inside your Godspeed project:
    ```
 2. **Replace the existing src directory with the plugin:**
    ```bash
-   rm -rf ./src
+   rm -rf /path/to/your/godspeed/project/src
    mv ./src /path/to/your/godspeed/project
    ```
 3. **Build the project**
