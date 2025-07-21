@@ -1,12 +1,12 @@
-#  Pulkit-Plugin @ Godspeed
+#  Websocket-Plugin @ Godspeed
 
-The **Pulkit-Plugin** is a simple WebSocket client that connects to a specified server, collects data for a given duration, and stores it in a file. Built to work within the **_Godspeed Framework_** this plugin requires minimal setup .
+The **Websocket-Plugin** is a simple WebSocket client that connects to a specified server, collects data for a given duration, and stores it in a file. Built to work within the **_Godspeed Framework_** this plugin requires minimal setup .
 
 ---
 
 ##  Configuration
 
-All settings for the plugin are managed through the `pulkit-plugin.yaml` file. The following parameters can be configured:
+All settings for the plugin are managed through the `websocket-plugin.yaml` file. The following parameters can be configured:
 
 | Parameter   | Description                                                |
 |-------------|------------------------------------------------------------|
@@ -19,7 +19,7 @@ All settings for the plugin are managed through the `pulkit-plugin.yaml` file. T
 
 ##  How to Run
 
-Follow these steps to run the **_Pulkit-Plugin_** inside your Godspeed project:
+Follow these steps to run the **_Websocket-Plugin_** inside your Godspeed project:
 
 > For godspeed setup check the below link
 >   ```bash
