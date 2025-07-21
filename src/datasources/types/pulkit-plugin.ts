@@ -111,8 +111,8 @@ async execute(ctx: GSContext, args: PlainObject): Promise<any> {
 }
 
 const SourceType = 'DS';
-const Type = "pulkit-plugin"; // this is the loader file of the plugin, So the final loader file will be `types/${Type.js}`
-const CONFIG_FILE_NAME = "pulkit-plugin"; // in case of event source, this also works as event identifier, and in case of datasource works as datasource name
+const Type = "websocket-plugin"; // this is the loader file of the plugin, So the final loader file will be `types/${Type.js}`
+const CONFIG_FILE_NAME = "websocket-plugin"; // in case of event source, this also works as event identifier, and in case of datasource works as datasource name
 const DEFAULT_CONFIG = {};
 
 export {
