@@ -66,4 +66,4 @@ Follow these steps to run the **_Websocket-Plugin_** inside your Godspeed projec
 
 ### Important
 - You know its chatgpt cause i dont write like this.
-- Why? offcourse its a assignment and i did not get.
+- Why? offcourse its a assignment and i did not get in.
