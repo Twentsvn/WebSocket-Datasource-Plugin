@@ -1,4 +1,4 @@
-type: pulkit-plugin
+type: websocket-plugin
 url : "wss://test.deribit.com/ws/api/v2"
 username : "admin"
 password : "admin"
