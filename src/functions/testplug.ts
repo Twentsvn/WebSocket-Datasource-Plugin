@@ -1,16 +1,16 @@
 import { GSContext, PlainObject } from "@godspeedsystems/core";
 
 export default async function(ctx: GSContext, args: PlainObject) {
-    const pulkitDS = ctx.datasources['pulkit-plugin']; // Access by CONFIG_FILE_NAME
+    const DS = ctx.datasources['websocket-plugin']; // Access by CONFIG_FILE_NAME
 
-    if (!pulkitDS) {
-        ctx.logger.error("Datasource 'pulkit-plugin' not found.");
-        return { success: false, error: "Datasource 'pulkit-plugin' not found." };
+    if (!DS) {
+        ctx.logger.error("Datasource 'websocket-plugin' not found.");
+        return { success: false, error: "Datasource 'websocket-plugin' not found." };
     }
 
     try {
         ctx.logger.info("Initializing WebSocket datasource...");
-        const initResult = await pulkitDS.initClient();
+        const initResult = await DS.initClient();
         ctx.logger.info("Init result:", initResult);
        
         // Ensure client is initialized before calling execute
@@ -29,7 +29,7 @@ export default async function(ctx: GSContext, args: PlainObject) {
         };
 
         ctx.logger.info("Executing WebSocket data logging...");
-        const result = await pulkitDS.execute(ctx, { payload });
+        const result = await DS.execute(ctx, { payload });
 
         return {
             success: true,
